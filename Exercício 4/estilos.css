@@ -1,0 +1,230 @@
+body {
+
+    font-family: 'PT Sans Narrow', sans-serif;
+
+    font-size: 20px;
+
+    color: white;
+
+    background-color: black;
+
+}
+
+a {
+
+    text-decoration: none;
+
+}
+
+h1 {
+
+    font-size: 46px;
+
+    color: #c03328;
+
+    text-align: center;
+
+    text-transform: uppercase;
+
+}
+
+footer {
+
+    background-color: #4a4a4a;
+
+    text-align: center;
+
+    font-size: 12px;
+
+}
+
+article {
+
+    background-color: white;
+
+    color: black;
+
+}
+
+header {
+
+    background-color: white;
+
+    text-transform: uppercase;
+
+    font-size: 100px;
+
+    color: #c03328;
+
+}
+
+nav {
+
+    background-color: #c03328;
+
+    text-align: center;
+
+    line-height: 95px;
+
+    font-size: 25px;
+
+    text-transform: uppercase;
+}
+
+
+/* Classes */
+
+.bold {
+
+    font-weight: bolder
+}
+
+.captions {
+
+    font-size: 14px;
+}
+
+.section {
+
+    text-align: right
+}
+
+.image {
+
+    text-align: center
+}
+
+.elite {
+
+    font-size: 180px;
+
+    line-height: 250px;
+
+    text-transform: uppercase;
+
+    background-color: black;
+
+    color: white;
+
+    background-image: url(imagens/elite_fitness.png);
+
+    background-repeat: no-repeat;
+
+    background-position: center top;
+
+    height: 455px;
+
+}
+
+.logo{
+    
+    background-color: black;
+}
+
+.Annie {
+
+    font-size: 25px;
+
+    font-weight: bold;
+
+}
+
+.imgcenter {
+
+    text-align: center
+}
+
+
+/* Links */
+
+
+a:link {
+
+    color: #135cab
+}
+
+a:visited {
+
+    color: #135cab
+}
+
+a:hover {
+
+    color: aqua
+}
+
+a:active {
+
+    color: #135cab
+}
+
+/* Nav Links*/
+
+nav a:link {
+
+    color: white;
+
+}
+
+nav a:visited {
+
+    color: white;
+
+}
+
+nav a:hover {
+
+    color: #c03328;
+
+    background-color: white;
+
+}
+
+nav a:active {
+
+    color: white;
+
+}
+
+/* Footer Links */
+
+footer a:link {
+
+    background-color: #4a4a4a;
+}
+
+/* Images */
+
+.hang {
+
+    border-radius: 50px 0px 0px 50px;
+
+    width: auto;
+
+    height: 432px;
+
+}
+
+.done {
+
+    border-radius: 0px 50px 50px 0px;
+
+}
+
+.clerk1 {
+
+    border-radius: 50px 0px 0px 50px;
+
+}
+
+.clerk3 {
+
+    border-radius: 0px 50px 50px 0px;
+
+}
+
+.clerk2 {
+
+    border-radius: 50px;
+
+}
