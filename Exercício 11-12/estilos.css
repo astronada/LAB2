@@ -1,0 +1,258 @@
+* {
+
+    box-sizing: border-box;
+
+}
+
+p {
+
+    line-height: 1.5rem;
+
+}
+
+body {
+
+    font-family: Lucida Console;
+
+    margin: 0px;
+
+    background-color: #f7deb5;
+
+}
+
+img {
+
+    width: 100%;
+
+}
+
+figure {
+
+    width: 250px;
+
+    text-align: center;
+
+    margin: auto;
+
+    color: white;
+
+}
+
+header {
+
+    min-height: 8rem;
+
+    position: fixed;
+
+    padding-bottom: 1rem;
+
+    padding-top: 1rem;
+
+    padding-left: 4rem;
+
+    padding-right: 4rem;
+
+    width: 100%;
+
+    background-color: #aa1245;
+
+    z-index: 1;
+
+    color: #f7deb5;
+
+}
+
+main {
+
+    position: relative;
+
+    top: 10rem;
+
+    float: left;
+
+    width: 75%;
+
+}
+
+aside {
+
+    position: relative;
+
+    top: 8rem;
+
+    float: left;
+
+    width: 25%;
+
+    padding-bottom: 1rem;
+
+    padding-top: 1rem;
+
+    padding-left: 4rem;
+
+    padding-right: 4rem;
+
+}
+
+nav {
+
+    color: #ADD8E6;
+
+}
+
+aside h3 {
+
+    padding-top: 1rem;
+
+    padding-bottom: 1rem;
+
+    color: #f7deb5;
+
+    background-color: #444;
+
+}
+
+section {
+
+    min-height: 100%;
+
+    padding-top: 10rem;
+
+    padding-bottom: 1rem;
+
+    padding-left: 4rem;
+
+    padding-right: 4rem;
+
+    background-color: #c5c39a;
+
+}
+
+section h2 {
+
+    font-family: sans-serif;
+
+    letter-spacing: 10px;
+
+    color: #0000A0;
+
+    text-align: left;
+
+    text-transform: uppercase;
+
+    border-bottom: 1px solid #0000A0;
+
+}
+
+section p {
+
+    width: 60%;
+
+    padding-top: 3rem;
+
+    padding-bottom: 3rem;
+
+    color: white;
+
+    margin: auto;
+
+}
+
+#s2 {
+
+    background-color: #df506e;
+
+}
+
+
+nav a {
+
+    color: #f7deb5;
+
+}
+
+/*-Media Queries-*/
+
+@media only screen and (max-width: 991px) {
+
+    h1 {
+        
+    text-align: center;
+        
+    }
+    
+    main {
+        
+        width: 100%;
+    
+        top: 0;
+        
+    }
+    
+    nav a {
+
+        background-color: #f7deb5;
+
+        color: #aa1245;
+
+        padding: 2rem;
+        
+        display: inline-block;
+        
+        width: 100%;
+
+        margin-top: 1rem;
+        
+        text-align: center;
+        
+    }
+
+
+    span {
+
+        display: none;
+
+    }
+
+    header {
+
+        padding-left: 0;
+
+        padding-right: 0;
+
+        position: static;
+
+    }
+
+    section {
+
+        padding-left: 1.5rem;
+
+        padding-right: 1.5rem;
+
+        padding-top: 1rem;
+
+    }
+
+
+    figure {
+
+        width: 50%;
+
+    }
+
+
+    p {
+
+        width: 100%;
+
+    }
+
+    
+    aside {
+        
+width: 100%
+        
+    }
+    
+}
